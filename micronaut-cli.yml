@@ -1,0 +1,5 @@
+profile: cli
+defaultPackage: weather.cli
+---
+testFramework: junit
+sourceLanguage: java
