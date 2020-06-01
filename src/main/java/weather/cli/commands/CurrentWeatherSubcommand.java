@@ -13,7 +13,7 @@ public class CurrentWeatherSubcommand extends LocalizedCommand {
     private static final Logger LOG = LoggerFactory.getLogger(CurrentWeatherSubcommand.class);
 
     @Inject
-    private WeatherAPIClient weatherAPIClient;
+    public WeatherAPIClient weatherAPIClient;
 
     @Override
     public void run() {

@@ -1,7 +1,10 @@
 package weather.cli.api;
 
+import io.micronaut.core.annotation.Introspected;
+
 import java.util.List;
 
+@Introspected
 public class ForecastResponse {
     private List<ForecastObservation> data;
 

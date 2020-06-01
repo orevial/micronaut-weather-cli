@@ -1,0 +1,44 @@
+[ {
+  "name" : "weather.cli.commands.ForecastSubcommand",
+  "methods" : [ {
+    "name" : "setNbDays",
+    "parameterTypes" : [ "int" ]
+  }, {
+    "name" : "run",
+    "parameterTypes" : [ ]
+  } ]
+}, {
+  "name" : "weather.cli.commands.LocalizedCommand",
+  "fields" : [ {
+    "name" : "spec"
+  }, {
+    "name" : "spec"
+  }, {
+    "name" : "spec"
+  } ],
+  "methods" : [ {
+    "name" : "setCountry",
+    "parameterTypes" : [ "java.lang.String" ]
+  }, {
+    "name" : "setCity",
+    "parameterTypes" : [ "java.lang.String" ]
+  }, {
+    "name" : "run",
+    "parameterTypes" : [ ]
+  } ]
+}, {
+  "name" : "weather.cli.reflection-config.json",
+  "methods" : [ {
+    "name" : "main",
+    "parameterTypes" : [ "java.lang.String[]" ]
+  }, {
+    "name" : "run",
+    "parameterTypes" : [ ]
+  } ]
+}, {
+  "name" : "weather.cli.commands.CurrentWeatherSubcommand",
+  "methods" : [ {
+    "name" : "run",
+    "parameterTypes" : [ ]
+  } ]
+} ]

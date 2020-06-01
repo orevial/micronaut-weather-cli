@@ -1,7 +1,9 @@
 package weather.cli.api;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import io.micronaut.core.annotation.Introspected;
 
+@Introspected
 public class ForecastObservation {
     private String forecastDate;
     private double windSpeed;

@@ -21,7 +21,7 @@ public class ForecastSubcommand extends LocalizedCommand {
     private int nbDays;
 
     @Inject
-    private WeatherAPIClient weatherAPIClient;
+    public WeatherAPIClient weatherAPIClient;
 
     @Option(names = {"-d", "--days"},
         description = "the number of forecast days to fetch (between 1 and 16)",
